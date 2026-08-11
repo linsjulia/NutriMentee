@@ -28,19 +28,18 @@ Plano de Ação Personalizado: Criação de planos de acompanhamento (rotinas al
 
 Comunicação e Engajamento: Chat interno em tempo real entre profissional e cliente e sistema de notificações e avaliação de usuários.
 
-Gestão Financeira e Legal: Realização de pagamentos, solicitação de reembolso e painel de gerenciamento de dados de pagamentos para o profissional.
+Gestão Financeira e Legal: Realização de pagamentos, solicitação de reembolso e painel de gerenciamento de dados de pagamentos para o profissional e cliente.
 
 # Tecnologias utilizadas
 
-Front-end & Lógica Principal:
+# Front-end
 
-HTML (Estrutura)
+Next.js (Framework de React)
 
-CSS (Estilização)
-
-JavaScript (ES6) (Lógica da aplicação)
-
-Python (Servidor)
+# Back-end
+Java e Spring Boot (API Rest)
+Node.js (Servidor)
+MongoDB (Banco não relacional)
 
 Persistência de dados: Local Storage (Para persistência de dados localizados e simplificados).
 
@@ -60,13 +59,11 @@ Boas práticas de acessibilidade e responsividade.
 
 # Equipe de Desenvolvimento
 
-Arthur de Oliveira Borges
-
 Diego Lima Henrique
 
-Gabriel Benatto Alencar Stolses
-
 Gabriely Benito Monteiro
+
+Júlia Lins Pereira da Silva (Líder)
 
 Vitor Antonio Romualdo
 
