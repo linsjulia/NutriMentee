@@ -14,7 +14,7 @@ ODS 3 – Saúde e Bem-Estar: Promovendo o acesso à saúde e bem-estar para tod
 
 ODS 16 – Paz, Justiça e Instituições Eficazes: Promovendo a inclusão e o acesso à justiça (no contexto de conformidade legal, como LGPD).
 
-Além disso, o projeto está comprometido com a Lei de Software (Lei nº 9.609/98) e a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/18).
+Além disso, o projeto está comprometido a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/18).
 
 # Funcionalidades previstas (Casos de Uso Principais)
 
@@ -28,7 +28,7 @@ Plano de Ação Personalizado: Criação de planos de acompanhamento (rotinas al
 
 Comunicação e Engajamento: Chat interno em tempo real entre profissional e cliente e sistema de notificações e avaliação de usuários.
 
-Gestão Financeira e Legal: Realização de pagamentos, solicitação de reembolso e painel de gerenciamento de dados de pagamentos para o profissional e cliente.
+Gestão Financeira e Legal: Realização de pagamentos pela carteira digital, solicitação de reembolso e painel de gerenciamento de dados de pagamentos para o profissional e cliente.
 
 # Tecnologias utilizadas
 
@@ -37,11 +37,14 @@ Gestão Financeira e Legal: Realização de pagamentos, solicitação de reembol
 Next.js (Framework de React)
 
 # Back-end
+
 Java e Spring Boot (API Rest)
+
 Node.js (Servidor)
+
 MongoDB (Banco não relacional)
 
-Persistência de dados: Local Storage (Para persistência de dados localizados e simplificados).
+
 
 # Ferramentas:
 
