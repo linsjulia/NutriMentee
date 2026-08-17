@@ -12,7 +12,7 @@
   --color-blue2: #183245;
   --font-open-sans: var(--font-open-sans);
   --font-fraunces: var(--font-fraunces);
-  --shadow-3xl: 0 0 10px rgba(0, 0, 0, 0.25); 
+  --shadow-3xl: 0 0 5px rgba(0, 0, 0, 0.25); 
 }
 
 @theme inline {
@@ -20,6 +20,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,4 +34,16 @@ body {
   background: var(--background);
   color: var(--color-blue2);
   font-family: 'Open Sans';
+}
+
+.cards-landing{
+  width: 410px;
+  height: 220px;
+  background-color: #EDF9FF;
+  padding: 1.25rem;
+  font-weight: 600;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
