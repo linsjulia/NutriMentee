@@ -4,15 +4,19 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --titulo-cards: 20px;
 }
 
 @theme {
   --color-blue1: #004AAD;
   --color-green1: #00DD5C;
   --color-blue2: #183245;
+  --color-blue3: #EDF9FF;
+  --color-blue4: #72A3FF;
+  --color-green2: #A7FFCE;
   --font-open-sans: var(--font-open-sans);
   --font-fraunces: var(--font-fraunces);
-  --shadow-3xl: 0 0 5px rgba(0, 0, 0, 0.25); 
+  --shadow-3xl: 0 0 100px rgba(0, 0, 0, 0.10); 
 }
 
 @theme inline {
@@ -36,14 +40,53 @@ body {
   font-family: 'Open Sans';
 }
 
-.cards-landing{
-  width: 410px;
-  height: 220px;
+/* LANDING PAGE PAGETSX */
+.cards-landing1{
+  width: 380px;
+  height: 230px;
   background-color: #EDF9FF;
-  padding: 1.25rem;
+  padding: 10px;
   font-weight: 600;
-  font-size: 30px;
+  font-size: var(--titulo-cards);
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+  border: 2px solid #00FFE1;
+  border-radius: 1rem;
 }
+
+.icon-landingPage{
+  width: 64px;
+  height: 64px;
+}
+
+.numbers-icon{
+  margin-bottom: 10px;
+  width: 30px;
+}
+
+.cards-landing2{
+  padding: 2rem;
+  border: 2px solid;
+  border-image: linear-gradient(90deg, #00DD5C, #7188FF) 1;
+  border-radius: 20px;
+  width: 500px; 
+  height: 175px;
+  margin: 10px;
+}
+
+.cards-landing2 h1{
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+.cards-landing2 h2{
+  font-size: 16px;
+}
+
+.titulo-footer{
+  font-size: 24px;
+}
+
