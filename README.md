@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+=======
+# Software NutriMente - Integração de Saúde Mental e Nutricional
 
-First, run the development server:
+Projeto Semestral Universitário do curso superior de Desenvolvimento de Software Multiplataforma (DSM) - FATEC Luigi Papaiz.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Sobre o projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O NutriMente é um sistema de plataforma Web projetado para conectar profissionais das áreas da psicologia e nutrição com seus clientes, oferecendo uma experiência personalizada que combina tecnologia, alimentação saudável e cuidado psicológico.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A plataforma busca facilitar o acesso a serviços de saúde mental e nutricional de forma personalizada e eficiente.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Nosso projeto tem como base os Objetivos de Desenvolvimento Sustentável (ODS) da ONU:
 
-## Learn More
+ODS 3 – Saúde e Bem-Estar: Promovendo o acesso à saúde e bem-estar para todos.
 
-To learn more about Next.js, take a look at the following resources:
+ODS 16 – Paz, Justiça e Instituições Eficazes: Promovendo a inclusão e o acesso à justiça (no contexto de conformidade legal, como LGPD).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Além disso, o projeto está comprometido a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/18).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Funcionalidades previstas (Casos de Uso Principais)
 
-## Deploy on Vercel
+A plataforma NutriMente oferecerá um conjunto robusto de ferramentas para clientes e profissionais:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Gestão de Consultas e Agenda: Agendamento, reagendamento e visualização de consultas (online via videoconferência). Profissionais podem definir sua disponibilidade e preços.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Perfis e Busca Avançada: Cadastro de clientes e profissionais (incluindo verificação de documentação) e filtro de profissionais por especialidade e preço para clientes.
+
+Plano de Ação Personalizado: Criação de planos de acompanhamento (rotinas alimentares, técnicas psicológicas, metas quinzenais) e gerenciamento de progresso via Checklists.
+
+Comunicação e Engajamento: Chat interno em tempo real entre profissional e cliente e sistema de notificações e avaliação de usuários.
+
+Gestão Financeira e Legal: Realização de pagamentos pela carteira digital, solicitação de reembolso e painel de gerenciamento de dados de pagamentos para o profissional e cliente.
+
+# Tecnologias utilizadas
+
+# Front-end
+
+Next.js (Framework de React)
+
+# Back-end
+
+Java e Spring Boot (API Rest)
+
+Node.js (Servidor)
+
+MongoDB (Banco não relacional)
+
+
+
+# Ferramentas:
+
+Figma: Para prototipação e design da interface de usuário.
+
+Inkscape: Para criação de vetores e elementos gráficos.
+
+Git e GitHub para versionamento e colaboração.
+
+Boas práticas de acessibilidade e responsividade.
+
+# Links Externos
+
+----
+
+# Equipe de Desenvolvimento
+
+Diego Lima Henrique
+
+Gabriely Benito Monteiro
+
+Júlia Lins Pereira da Silva (Líder)
+
+Vitor Antonio Romualdo
+
+# Orientadores
+
+Lucio Nunes de Lira
+
+Bruno Zolotareff dos Santos
+
+Patricia Gallo
+
+Luiz Antonio
+
+Rafael Miranda
+>>>>>>> 723f1956f2e182bad87cfdd8c906d2084135f7aa
